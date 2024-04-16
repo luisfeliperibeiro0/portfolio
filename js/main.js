@@ -50,8 +50,8 @@ ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, . contact
 ScrollReveal().reveal('.home-contact h1, .about-img', {origin:'left'});
 ScrollReveal().reveal('.home-contact p, .about-content', {origin:'right'});
 
-const typed = new typed('.multiple-text', {
-    Strings:['Desenvolvedor Web', 'Web Designer','Youtuber'],
+const typed = new Typed('.multiple-text', {
+    strings:['Desenvolvedor Web', 'Web Designer','Youtuber'],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
